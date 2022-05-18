@@ -16,7 +16,20 @@ function App() {
       <h1>Mobile Operating System</h1>
       {Os.map((part)=>(
         <div>
-          <Mobile{...part} />
+          <Mobile   {...part}/>
+
+        </div>
+
+      ))}
+      
+      </>
+      
+      <>
+      <h1>Mobile System</h1>
+      {System.map((part)=>(
+        <div>
+          
+          <Mobile   {...part}/>
 
         </div>
 
